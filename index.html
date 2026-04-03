@@ -6,6 +6,7 @@
     <title>Nicolas Gualda | Senior Game Developer</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="js/phaser.min.js"></script>
 </head>
 <body>
 	<nav>
@@ -16,7 +17,9 @@
             <li><a href="#skills">Skills</a></li>
         </ul>
     </nav>
-
+    
+    <div id="space-background"></div>
+    
     <div class="container">
         <header id="top">
             <h1>Nicolas Gualda</h1>
@@ -37,7 +40,7 @@
                 I have a proven track record of bringing demanding titles to various platforms, ensuring peak performance through rigorous profiling and custom optimization strategies.
             </p>
             <p>
-                Beyond core programming, I thrive as a Technical Artist. I leverage my knowledge of HLSL/GLSL shaders, VFX, and rendering pipelines to empower creative teams and deliver stunning visual results without compromising technical integrity. Whether I am architecting systems or crafting complex visual effects, my goal is always to create seamless, immersive player experiences.
+                Beyond core programming, I thrive as a Technical Artist. I leverage my knowledge of shaders, VFX, and rendering pipelines to empower creative teams and deliver stunning visual results without compromising technical integrity. Whether I am architecting systems or crafting complex visual effects, my goal is always to create seamless, immersive player experiences.
             </p>
         </section>
 
@@ -68,12 +71,6 @@
                         <img src="images/projects/storyteller_logo.jpg" alt="Logo" class="project-img">
                     </div>
                 </div>
-
-                <div class="tech-stack">
-                    <span class="tech-badge">Unity</span>
-                    <span class="tech-badge">Console Porting</span>
-                    <span class="tech-badge">Mobile Development</span>
-                </div>
             </div>
 
             <div class="project-card">
@@ -101,11 +98,6 @@
                     <div class="card-media">
                         <img src="images/projects/dr_who_logo.png" alt="Logo" class="project-img">
                     </div>
-                </div>
-
-                <div class="tech-stack">
-                    <span class="tech-badge">Unity</span>
-                    <span class="tech-badge">Mobile Development</span>
                 </div>
             </div>
 
@@ -135,11 +127,6 @@
                         <img src="images/projects/elderand_logo.jpg" alt="Elderand Logo" class="project-img">
                     </div>
                 </div>
-
-                <div class="tech-stack">
-                    <span class="tech-badge">Unity</span>
-                    <span class="tech-badge">Console Porting</span>
-                </div>
             </div>
             
             <div class="project-card">
@@ -168,11 +155,6 @@
                     <div class="card-media">
                         <img src="images/projects/teratopia_logo.jpg" alt="Teratopia Logo" class="project-img">
                     </div>
-                </div>
-
-                <div class="tech-stack">
-                    <span class="tech-badge">Unity</span>
-                    <span class="tech-badge">Console Porting</span>
                 </div>
             </div>
 <!--
@@ -249,49 +231,43 @@
 		<section id="experience">
             <h2>Professional Experience</h2>
             
-            <div class="project-card">
+            <div class="experience-card">
                 <h2>Chief Technology Officer</h2>
                 <h3>The Original Gangsters</h3>
                 <span class="date">01/2024 - 01/2026</span>
-                <p> 
-				</p>
             </div>
 			
-			<div class="project-card">
+			<div class="experience-card">
                 <h2>Lead Programmer</h2>
                 <h3>The Original Gangsters</h3>
                 <span class="date">10/2022 - 12/2023</span>
-                <p>  </p>
             </div>
 
-            <div class="project-card">
+            <div class="experience-card">
                 <h2>Lead Programmer</h2>
                 <h3>Bigfoot Gaming</h3>
                 <span class="date">03/2021 - 09/2022</span>
-                <p>  </p>
             </div>
 
-            <div class="project-card">
+            <div class="experience-card">
                 <h2>Unity Programmer</h2>
                 <h3>The Original Gangsters</h3>
                 <span class="date">11/2019 - 02/2021</span>
-                <p>  </p>
             </div>
 
-            <div class="project-card">
+            <div class="experience-card">
                 <h2>Unity/Lead Programmer</h2>
                 <h3>Ravegan</h3>
                 <span class="date">05/2011 - 10/2019</span>
-                <p>  </p>
             </div>
         </section>
 		
 		<section id="skills">
             <h2>Skills</h2>
             <div class="skills-container">
-                <span>Game Porting</span> <span>Mobile Games</span>
-				<span>Unity</span> <span>Game Development</span>
-				<span>Project Management</span>  <span>Agile Methodologies</span> <span>Leadership</span> <span>Strategic Planning</span>
+                <span>Game Porting</span> <span>Mobile Games</span> <span>Game Development</span>
+				<span>Unity</span> <span>Custom Engine</span> <span>Godot</span> <span>Shaders</span>
+				<span>Agile Methodologies</span> <span>Leadership</span> <span>Strategic Planning</span>
             </div>
         </section>
 		
@@ -299,5 +275,7 @@
             <p>Contact: nicolasgualda@protonmail.com</p>
         </footer>
     </div>
+
+    <script src="js/space-background.js"></script>
 </body>
 </html>

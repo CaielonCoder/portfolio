@@ -257,7 +257,7 @@ p {
 }
 
 .card-header h4 {
-    color: var(--color-accent1);
+    color: var(--color-accent2);
 }
 
 .card-header h3 {
@@ -289,7 +289,7 @@ p {
 .project-details p {
     margin: 0 !important;      /* Elimina el espacio entre líneas */
     padding: 0 !important;
-    line-height: 1.5 !important; /* Altura de línea compacta */
+    line-height: 1.5 !important; 
     font-size: 0.9rem !important;
     color: #94a3b8 !important; /* Color gris suave */
 }
@@ -307,8 +307,27 @@ p {
     border-bottom: 1px dashed #38bdf8;
 }
 
+.project-details h4 {
+    color: var(--color-accent1);
+    font-style: normal;
+}
+
 .project-card.experience {
     padding: 15px 20px 15px 25px;
+}
+
+.project-card.experience h3 {
+    color: var(--color-accent2);
+}
+
+.project-card.experience span {
+    color: var(--color-accent1);
+}
+
+.project-card.experience p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
 }
 
 /* --- Images --- */

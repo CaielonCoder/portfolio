@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas Gualda | Senior Game Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <script src="js/phaser.min.js"></script>
 </head>
 <body>
 	<nav>
         <ul>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
         </ul>
     </nav>
     
@@ -32,20 +33,38 @@
         </header>
 
         <section id="about">
-            <h2>About Me</h2>
+            <h2 class="section-title">About Me</h2>
             <p>
-                With over 14 years of experience in the games industry, I specialize in bridging the gap between high-level software engineering and high-fidelity visual execution. My career has been defined by a deep mastery of Unity (10+ years) and a versatile command of C++ and Python, allowing me to navigate complex engine architectures and build robust, scalable systems.
+                With over <span class="text-highlight">14 years of experience</span> in the games industry, I specialize in bridging the gap between high-level software engineering and high-fidelity visual execution. My career has been defined by a deep mastery of <span class="text-highlight">Unity (10+ years)</span> and a versatile command of C++ and Python, allowing me to navigate complex engine architectures and build robust, scalable systems.
             </p>
             <p>
-                I have a proven track record of bringing demanding titles to various platforms, ensuring peak performance through rigorous profiling and custom optimization strategies.
+                I have a proven track record of bringing demanding titles to various platforms <span class="text-highlight">(including XBox Series, Playstation 5, Nintendo Switch and Mobile)</span> , ensuring peak performance through rigorous profiling and custom optimization strategies.
             </p>
             <p>
-                Beyond core programming, I thrive as a Technical Artist. I leverage my knowledge of shaders, VFX, and rendering pipelines to empower creative teams and deliver stunning visual results without compromising technical integrity. Whether I am architecting systems or crafting complex visual effects, my goal is always to create seamless, immersive player experiences.
+                Beyond core programming, I thrive as a Technical Artist. I leverage my knowledge of <span class="text-highlight">shaders, VFX, and rendering pipelines</span> to empower creative teams and deliver stunning visual results without compromising technical integrity. Whether I am architecting systems or crafting complex visual effects, my goal is always to create seamless, immersive player experiences.
             </p>
         </section>
 
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-box"><i class="devicon-unity-plain"></i><span>Unity</span></div>
+                <div class="skills-box"><i class="devicon-cplusplus-plain"></i><span>Custom Engine</span></div>
+                <div class="skills-box"><i class="devicon-godot-plain"></i><span>Godot</span></div>
+                <div class="skills-box"><i class="devicon-unrealengine-original"></i><span>Unreal</span></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-box"><span>Shaders</span></div>
+                <div class="skills-box"><span>Console Porting</span></div>
+                <div class="skills-box"><span>Game Development</span></div>
+                <div class="skills-box"><span>Agile Methodologies</span></div>
+                <div class="skills-box"><span>Leadership</span></div>
+                <div class="skills-box"><span>Strategic Planning</span></div>
+            </div>
+        </section>
+
         <section id="projects">
-            <h2>Featured Projects</h2>
+            <h2 class="section-title">Featured Projects</h2>
             
             <div class="project-card">
                 <div class="card-body">
@@ -157,117 +176,119 @@
                     </div>
                 </div>
             </div>
-<!--
-            <div class="project-card">
-                <div class="card-body">
-                    <div class="card-text">
-                        <div class="card-header">
-                            <h3>Turnip Boy Robs a Bank</h3>
+
+            <h2 class="section-title">Other Projects</h2>
+            
+            <div class="mini-projects-container">
+                <div class="project-card">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="card-media">
+                                <img src="images/projects/bluerider_logo.png" alt="Blue Rider Logo" class="project-img">
+                            </div>
+                            <div class="card-header">
+                                <h3>Blue Rider</h3>
+                                <h4>Ravegan</h4>
+                            </div>
+
+                            <div class="project-details">
+                                <p><strong>Unity</strong>PC - Xbox One - PlayStation 4</p>
                         </div>
-
-                        <div class="project-details">
-                        <p><strong>Client:</strong> <a href="https://www.graffitigames.com/" target="_blank"> Graffiti Games</a></p>
-                        <p><strong>Collaboration:</strong> Porting</p>
-                        <p><strong>Platform:</strong> Nintendo Switch</p>
-                        <p><strong>Genre:</strong> Action-Adventure / Roguelite</p>
                     </div>
-
-                    <p>
-                        I led the console porting efforts for Xbox and Nintendo Switch. Managing a small but dedicated team of engineers and QA testers, we successfully pulled off a simultaneous launch on both platforms.
-                    </p>
-                    <p>
-                        I worked closely with the publisher to ensure our builds were technically stable and compliant with certification requirements, securing a smooth release day.
-                    </p>
-                </div>
-
-                    <div class="card-media">
-                        <img src="images/turnip_logo.jpg" alt="Basic Gameplay" class="project-img">
-                        <img src="images/turnip_animation.gif" alt="Boss Fight" class="project-img">
                     </div>
                 </div>
 
-                <div class="tech-stack">
-                    <span class="tech-badge">GameMaker</span>
-                    <span class="tech-badge">Console Porting</span>
-                    <span class="tech-badge">Simultaneous Ship</span>
+                <div class="project-card">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="card-media">
+                                <img src="images/projects/turnip_logo.jpg" alt="Turnip Boy Logo" class="project-img">
+                            </div>
+                            <div class="card-header">
+                                <h3>Turnip Boy Robs a Bank</h3>
+                                <h4> Graffiti Games </h4>
+                            </div>
+
+                            <div class="project-details">
+                                <p><strong>Game Maker</strong> Nintendo Switch</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="mini-projects-container">
+                <div class="project-card">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="card-media">
+                                <img src="images/projects/weneed_logo.jpg" alt="Wee Need To Go Deeper Logo" class="project-img">
+                            </div>
+                            <div class="card-header">
+                                <h3>We Need to Go Deeper</h3>
+                                <h4> Graffiti Games </h4>
+                            </div>
+
+                            <div class="project-details">
+                                <p><strong>Unity</strong> Nintendo Switch</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
                 
-            <div class="project-card">
-                <div class="card-body">
-                    <div class="card-text">
-                        <div class="card-header">
-                            <h3>We Need to Go Deeper</h3>
+                <div class="project-card">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="card-media">
+                                <img src="images/projects/fuvr_logo.png" alt="Flight Unlimited Logo" class="project-img">
+                            </div>
+                            <div class="card-header">
+                                <h3>Flight Unlimited VR</h3>
+                                <h4>Flight Systems LLC</h4>
+                            </div>
+
+                            <div class="project-details">
+                                <p><strong>Unity</strong> Oculus Go</p>
+                            </div>
                         </div>
 
-                        <div class="project-details">
-                            <p><strong>Client:</strong> <a href="https://www.graffitigames.com/" target="_blank"> Graffiti Games</a></p>
-                            <p><strong>Collaboration:</strong> Porting & Refactor</p>
-                            <p><strong>Platform:</strong> Nintendo Switch</p>
-                            <p><strong>Genre:</strong> Cooperative Submarine Roguelike</p>
-                        </div>
-                            <p>
-                                This project involved some heavy technical lifting. I guided the team through a major engine upgrade (Unity 2018 to 2022) and a complete networking migration from UNET to Mirror to ensure stable online multiplayer.
-                            </p>
-                            <p>
-                                On the gameplay side, I oversaw the console adaptation, ensuring the new UI and gamepad controls felt right for the platform. I also coordinated performance optimizations to meet the technical standards required for release.
-                            </p>
-                        </div>
-
-                    <div class="card-media">
-                        <img src="images/weneed_logo.jpg" alt="Basic Gameplay" class="project-img">
                     </div>
                 </div>
-
-                <div class="tech-stack">
-                    <span class="tech-badge">Unity</span>
-                    <span class="tech-badge">Console Porting</span>
-                    <span class="tech-badge">Multiplayer</span>
-                </div>
             </div>
--->
         </section>
 
 		<section id="experience">
-            <h2>Professional Experience</h2>
+            <h2 class="section-title">Professional Experience</h2>
             
-            <div class="experience-card">
+            <div class="project-card experience">
                 <h2>Chief Technology Officer</h2>
                 <h3>The Original Gangsters</h3>
                 <span class="date">01/2024 - 01/2026</span>
             </div>
 			
-			<div class="experience-card">
+			<div class="project-card experience">
                 <h2>Lead Programmer</h2>
                 <h3>The Original Gangsters</h3>
                 <span class="date">10/2022 - 12/2023</span>
             </div>
 
-            <div class="experience-card">
+            <div class="project-card experience">
                 <h2>Lead Programmer</h2>
                 <h3>Bigfoot Gaming</h3>
                 <span class="date">03/2021 - 09/2022</span>
             </div>
 
-            <div class="experience-card">
+            <div class="project-card experience">
                 <h2>Unity Programmer</h2>
                 <h3>The Original Gangsters</h3>
                 <span class="date">11/2019 - 02/2021</span>
             </div>
 
-            <div class="experience-card">
+            <div class="project-card experience">
                 <h2>Unity/Lead Programmer</h2>
                 <h3>Ravegan</h3>
                 <span class="date">05/2011 - 10/2019</span>
-            </div>
-        </section>
-		
-		<section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <span>Game Porting</span> <span>Mobile Games</span> <span>Game Development</span>
-				<span>Unity</span> <span>Custom Engine</span> <span>Godot</span> <span>Shaders</span>
-				<span>Agile Methodologies</span> <span>Leadership</span> <span>Strategic Planning</span>
             </div>
         </section>
 		

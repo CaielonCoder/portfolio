@@ -189,7 +189,7 @@ p {
     color: var(--color-accent1);
     padding: 8px 16px;
     border: 1px solid var(--color-secondary);
-    border-radius: 6px;
+    border-radius: 3px;
     font-size: 3rem;
 }
 
@@ -214,7 +214,7 @@ p {
     background-color: var(--color-accent3-t);
     backdrop-filter: blur(2px);
     padding: 30px;
-    border-radius: 12px;
+    border-radius: 2px;
     margin-bottom: 40px;
     border: 1px solid var(--color-accent2);
     transition: transform 0.2s ease, border-color 0.2s ease;

@@ -227,6 +227,12 @@ p {
     background-color: var(--color-accent2-t);
 }
 
+.project-card-link {
+    text-decoration: none;
+    color: inherit; 
+    display: block; 
+}
+
 .card-body {
     display: flex;
     gap: 30px;
